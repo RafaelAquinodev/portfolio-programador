@@ -1,0 +1,12 @@
+{
+  "css.validate": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
+  "emmet.includeLanguages": {
+    "html": "html",
+    "css": "css"
+  }
+}
