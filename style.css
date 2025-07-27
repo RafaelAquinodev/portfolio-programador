@@ -60,3 +60,78 @@
   padding-right: 8px;
   letter-spacing: 0.15rem;
 }
+
+/* Utilities */
+
+.section-container {
+  width: 100%;
+  background-color: rgb(1, 19, 31);
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+.section-content {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.section-title {
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: 0.15rem;
+  color: #fff;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1.5px solid #fff;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+/* SOBRE MIM */
+.about-me-content {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me-content img {
+  width: 320px;
+  height: 320px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+.about-me-content p {
+  color: white;
+  line-height: 2rem;
+}
+/* HABILIDADES */
+.skills-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 108px;
+}
+.skill-item {
+  background-color: rgb(7, 56, 88);
+  width: 25%;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 500;
+}
+.skill-item p {
+  color: white;
+  opacity: 75%;
+}
