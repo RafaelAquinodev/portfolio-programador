@@ -60,7 +60,74 @@
   padding-right: 8px;
   letter-spacing: 0.15rem;
 }
+/* PROJETOS */
+.projects-content {
+  margin-top: 118px;
+}
 
+.projects-content .project-item:nth-child(2),
+.projects-content .project-item:nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+.projects-content .project-item > .teste {
+  order: 2;
+  margin-left: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.projects-content .project-item > .project-text {
+  order: 1;
+}
+
+.project-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.project-text > p {
+  color: #fff;
+  opacity: 75%;
+  line-height: 29px;
+}
+.project-text {
+  margin-left: 50px;
+  max-width: 600px;
+}
+.project-text > h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 2.25rem;
+}
+.project-image-detail {
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+}
+.project-image-detail:hover {
+  width: 270px;
+  height: 270px;
+  border: 6px solid dodgerblue;
+  transition: 1s;
+}
+.project-item-image-one {
+  background-image: url("./images/ntf.png");
+  background-position: center;
+}
+.project-item-image-two {
+  background-image: url("./images/quiz-maturidade.png");
+}
+.project-item-image-three {
+  background-image: url("./images/quiz-profissional.png");
+}
+/* .project-item-image-four {
+  background-image: url("./images/fsw-donalds.png");
+} */
 /* Utilities */
 
 .section-container {
@@ -125,6 +192,10 @@
   justify-content: center;
   align-items: center;
 }
+.skill-item:hover {
+  border: 2px solid #fff;
+  transition: 0.5s;
+}
 .skill-item span {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -134,4 +205,18 @@
 .skill-item p {
   color: white;
   opacity: 75%;
+}
+.footer-container {
+  width: 100%;
+  background-color: rgb(7, 50, 80);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.footer-container .social-items a {
+  margin-right: 25px;
+}
+.footer-container .social-items a:hover {
+  cursor: pointer;
 }
